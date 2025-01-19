@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="abhina@alienware:22 (2)" remoteFilesAllowedToDisappearOnAutoupload="false" showDifferentInSync="false">
+    <serverData>
+      <paths name="abhina24@payne:22 agent">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/abhina24/Astroproject" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="abhina@alienware:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/abhina/Astroproject" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/data_deltascuti" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="abhina@alienware:22 (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/abhina/Astroproject" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/data" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="alienware">
+        <serverdata>
+          <mappings>
+            <mapping deploy="June2_2024" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="payne">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Astroproject" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/sessions" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

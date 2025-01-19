@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7e879f61-6989-4cca-9fec-585d705f5f23" name="payne">
+        <fileTransfer rootFolder="/home/abhina24" accessType="SFTP" host="alienware" port="22" sshConfigId="cf1f58f5-7744-434b-b859-73c3ba707a9e" sshConfig="abhina@alienware:22" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6f69c626-b9c0-4017-a6fd-383c94264a43" name="alienware">
+        <fileTransfer rootFolder="/home/abhina" accessType="SFTP" host="alienware" port="22" sshConfigId="cf1f58f5-7744-434b-b859-73c3ba707a9e" sshConfig="abhina@alienware:22" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
