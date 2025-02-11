@@ -10,7 +10,7 @@ def main():
     train_light_curve_dataset = get_train_dataset()
     validation_light_curve_dataset = get_validation_dataset()
     model = HadryssNew.new(end_module=HadryssMultiClassScoreEndModuleNew(number_of_classes=6))
-    optimizer = AdamW(model.parameters(), lr=1e-2)
+    optimizer = AdamW(model.parameters(), lr=1e-3)
     train_hyperparameter_configuration = TrainHyperparameterConfiguration.new(
         batch_size=1000, cycles=1000, train_steps_per_cycle=100, validation_steps_per_cycle=50)
     loss_function = CrossEntropyAlt()
