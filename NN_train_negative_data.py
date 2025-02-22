@@ -1,3 +1,7 @@
+'''
+This is the training script of the neural network. The train and validation dataset are specified in the get_train_dataset and get_validation_dataset files.
+The CNN model is defined in the Hadryss_new file
+'''
 from qusi.experimental.metric import CrossEntropyAlt, MulticlassAccuracyAlt, MulticlassAUROCAlt
 from qusi.session import TrainHyperparameterConfiguration, train_session
 from torch.optim import AdamW
